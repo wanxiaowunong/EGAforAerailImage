@@ -60,27 +60,27 @@ SET = 'train'
 
 if SOURCE == 'Potsdam':
     INPUT_SIZE_SOURCE = '512,512'
-    DATA_DIRECTORY = '/Share/home/E19201070/data/ISPRS512_512/Potsdam'  # Potsdam_512512_nooverlap
-    DATA_LIST_PATH = '/Share/home/E19201070/data/ISPRS512_512/Potsdam/24.txt'  # /Potsdam_512512_nooverlap/24_nooverlap.txt
+    DATA_DIRECTORY = '/Share/home/data/ISPRS512_512/Potsdam'  # Potsdam_512512_nooverlap
+    DATA_LIST_PATH = '/Share/home/data/ISPRS512_512/Potsdam/24.txt'  # /Potsdam_512512_nooverlap/24_nooverlap.txt
     Lambda_weight = 0.01
     Lambda_adv = 0.001
     Lambda_local = 5
     Epsilon = 0.6
 elif SOURCE == 'SYNTHIA':
     INPUT_SIZE_SOURCE = '1280,760'
-    DATA_DIRECTORY = '/Share/home/E19201070/data/ISPRS512_512/Vaihingen'
-    DATA_LIST_PATH = '/Share/home/E19201070/data/ISPRS512_512/Vaihingen/16.txt'
+    DATA_DIRECTORY = '/Share/home/data/ISPRS512_512/Vaihingen'
+    DATA_LIST_PATH = '/Share/home/data/ISPRS512_512/Vaihingen/16.txt'
     Lambda_weight = 0.01
     Lambda_adv = 0.001
     Lambda_local = 10
     Epsilon = 0.4
 
 INPUT_SIZE_TARGET = '512,512'
-DATA_DIRECTORY_TARGET = '/Share/home/E19201070/data/ISPRS512_512/Vaihingen'
-DATA_LIST_PATH_TARGET = '/Share/home/E19201070/data/ISPRS512_512/Vaihingen/17.txt'
+DATA_DIRECTORY_TARGET = '/Share/home/data/ISPRS512_512/Vaihingen'
+DATA_LIST_PATH_TARGET = '/Share/home/data/ISPRS512_512/Vaihingen/17.txt'
 
-DATA_DIRECTORY_val = '/Share/home/E19201070/data/ISPRS512_512/Vaihingen'
-DATA_LIST_PATH_val = '/Share/home/E19201070/data/ISPRS512_512/Vaihingen/16.txt'
+DATA_DIRECTORY_val = '/Share/home/data/ISPRS512_512/Vaihingen'
+DATA_LIST_PATH_val = '/Share/home/data/ISPRS512_512/Vaihingen/16.txt'
 
 
 def get_arguments():

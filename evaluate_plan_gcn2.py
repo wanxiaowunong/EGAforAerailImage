@@ -24,8 +24,8 @@ if source=="Potsdam":
 
 
 else:
-   DATA_DIRECTORY = '/Share/home/E19201070/data/Potsdam_512512_nooverlap'
-   DATA_LIST_PATH = '/Share/home/E19201070/data/Potsdam_512512_nooverlap/24_nooverlap.txt'
+   DATA_DIRECTORY = '/Share/home/data/Potsdam_512512_nooverlap'
+   DATA_LIST_PATH = '/Share/home/data/Potsdam_512512_nooverlap/24_nooverlap.txt'
    SNAPSHOT_DIR='./snapshots_gcn_V2P'
 
 # if source=="Potsdam":

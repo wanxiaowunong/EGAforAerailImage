@@ -19,8 +19,8 @@ IMG_MEAN = np.array((81.19, 81.80, 120.48), dtype=np.float32)
 
 DATA_DIRECTORY = 'D:\ISPRS\Vaihingen\\16\\512_512\\16_nooverlap'
 DATA_LIST_PATH = 'D:\ISPRS\Vaihingen\\16\\512_512\\16_nooverlap\\16_1.txt'
-SAVE_PATH = 'G:\wangming\试验文件夹\组内服务器\snapshots_gcn_entropy\\tsne'
-SNAPSHOT_DIR = r'G:\wangming\EGA_data——工作一\model\Graph_Reasoning\baseline+LSR+EGA\P2V_gcn92000.pth'
+SAVE_PATH = 'G:\snapshots_gcn_entropy\\tsne'
+SNAPSHOT_DIR = r'G:\EGA\model\Graph_Reasoning\baseline+LSR+EGA\P2V_gcn92000.pth'
 RESTORE_FROM = 'http://vllab.ucmerced.edu/ytsai/CVPR18/GTA2Cityscapes_multi-ed35151c.pth'
 IGNORE_LABEL = 255
 NUM_CLASSES = 6

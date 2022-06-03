@@ -20,10 +20,8 @@ from sklearn.manifold import TSNE
 IMG_MEAN = np.array((81.19, 81.80, 120.48), dtype=np.float32)
 DATA_DIRECTORY = r'D:\ISPRS\Vaihingen\\16\\512_512\\16_nooverlap'
 DATA_LIST_PATH = r'D:\ISPRS\Vaihingen\\16\\512_512\\16_nooverlap\\16_1.txt'
-SAVE_PATH = 'G:\wangming\试验文件夹\组内服务器\snapshots_gcn_entropy\\tsne'
-# SNAPSHOT_DIR = "G:\wangming\EGA_data——工作一\model\Baseline\snapshots_resnet\P2V_70000.pth"
-    # r'G:\wangming\EGA_data——工作一\model\NoAdapt\ISPRS_epoch22.pth'
-SNAPSHOT_DIR=r"G:\wangming\EGA_data——工作一\model\Graph_Reasoning\baseline+EGA\P2V_72000.pth"
+SAVE_PATH = 'G:\snapshots_gcn_entropy\\tsne'
+SNAPSHOT_DIR=r"G:\\model\Graph_Reasoning\baseline+EGA\P2V_72000.pth"
 RESTORE_FROM = 'http://vllab.ucmerced.edu/ytsai/CVPR18/GTA2Cityscapes_multi-ed35151c.pth'
 
 IGNORE_LABEL = 255

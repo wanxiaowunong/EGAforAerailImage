@@ -24,8 +24,8 @@ from utils.metricsRM import runningScore
 '''deeplab 测试代码'''
 # IMG_MEAN = np.array((104.00698793, 116.66876762, 122.67891434), dtype=np.float32)
 IMG_MEAN = np.array((81.19, 81.80, 120.48), dtype=np.float32)
-DATA_DIRECTORY = '/Share/home/E19201070/data/ISPRS512_512/Vaihingen_nooverlap'
-DATA_LIST_PATH = '/Share/home/E19201070/data/ISPRS512_512/Vaihingen_nooverlap/16_nooverlap.txt'
+DATA_DIRECTORY = '/Share/home/data/ISPRS512_512/Vaihingen_nooverlap'
+DATA_LIST_PATH = '/Share/home/data/ISPRS512_512/Vaihingen_nooverlap/16_nooverlap.txt'
 SAVE_PATH = './result/Vaihingen'
 SNAPSHOT_DIR='./snapshots_resnet'
 

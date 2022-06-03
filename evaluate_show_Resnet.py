@@ -20,8 +20,8 @@ DATA_LIST_PATH = r'D:\ISPRS\Vaihingen\\16\\512_512\\16_nooverlap\\16_1.txt'
 # DATA_DIRECTORY = 'D:\ISPRS\Potsdam\\14\\512_512'
 # DATA_LIST_PATH = 'D:\ISPRS\Potsdam\\14\\512_512\\14.txt'
 
-SAVE_PATH = r'G:\wangming\EGA_data——工作一\model\Baseline\result1'
-SNAPSHOT_DIR = r'G:\wangming\EGA_data——工作一\model\Baseline\snapshots_resnet\P2V_70000.pth'
+SAVE_PATH = r'G:\EGA\model\Baseline\result1'
+SNAPSHOT_DIR = r'G:\EGA\model\Baseline\snapshots_resnet\P2V_70000.pth'
 RESTORE_FROM = 'http://vllab.ucmerced.edu/ytsai/CVPR18/GTA2Cityscapes_multi-ed35151c.pth'
 IGNORE_LABEL = 255
 NUM_CLASSES = 6
